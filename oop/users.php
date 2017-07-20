@@ -1,28 +1,29 @@
 <?php
-class User{
-    public $name;
-    public $login;
-    public $password;
-
-    public function __construct($name,$login,$password){
-        $this->name = $name;
-        $this->login = $login;
-        $this->password = $password;
-    }
-
-    public function __destruct(){
-        echo '<br>'.$this->login . ' ��� ������';
-    }
-
-    public function shoeInfo(){
-        echo 'Name: ' . $this->name . ' Login: ' . $this->login . ' Password: ' . $this->password . '<br>';
-    }
+function __autoload($class){
+    include "class/" . $class . '.class.php';
 }
+$user1 = new User('Вася','Vasya','12345');
+$user1->showInfo();
 
-$user1 = new User('����','Vasya','12345');
-$user1->shoeInfo();
-$user2 = new User('����','Petya','root');
-$user2->shoeInfo();
+$user2 = new User('Петя','Petya','root');
+$user2->showInfo();
+
 $user3 = new User('Ivan','Ivanich','1507');
-$user3->shoeInfo();
-?>
+$user3->showInfo();
+
+$user4 = clone $user1;
+$user4->showInfo();
+
+$user = new SuperUser('Vasya Pupkin','PuP','1222155','Admin');
+$user->showInfo();
+
+echo 'Всего обычных пользователей: ' . User::$count . '<br>';
+echo 'Всего супер-пользователей: ' . SuperUser::$count;
+
+interface A {}
+interface B {}
+interface C {}
+
+class e implements C,A,B{
+    
+}

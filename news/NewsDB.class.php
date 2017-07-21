@@ -4,6 +4,9 @@ require_once 'INewsDB.class.php';
 class NewDb implements INewsDB{
     protected $_db;
     const DB_NAME = "C:\OpenServer\domains\level.three\\news.db";
+    const RSS_NAME = 'rss.xml';
+    const RSS_TITLE = 'Последние новости';
+    const RSS_LINK = 'level.three/news/news.php';
 
     function __construct()
     {
@@ -71,6 +74,7 @@ class NewDb implements INewsDB{
             if (!$result){
                 throw new Exception($this->_db->lastErrorMsg());
             }
+            $this->createRss();
             return true;
         }catch (Exception $e){
             $e->getMessage();
@@ -119,6 +123,43 @@ class NewDb implements INewsDB{
             $e->getMessage();
             return false;
         }
+    }
+
+    function createRss(){
+        $dom = new DOMDocument('1.0', 'utf-8');
+        $dom->formatOutput = true;
+        $dom->preserveWhiteSpace = false;
+        $rss = $dom->createElement('rss');
+        $version = $dom->createAttribute('version');
+        $version->value = '2.0';
+        $rss->appendChild($version);
+        $dom->appendChild($rss);
+        $channel = $dom->createElement('channel');
+        $rss->appendChild($channel);
+        $title = $dom->createElement('title', self::RSS_NAME);
+        $link = $dom->createElement('link', self::RSS_LINK);
+        $channel->appendChild($title);
+        $channel->appendChild($link);
+        $lenta = $this->getNews();
+        if(!$lenta) return false;
+        foreach ($lenta as $news){
+            $item = $dom->createElement('item');
+            $title = $dom->createElement('title',$news['title']);
+            $category = $dom->createElement('category',$news['category']);
+            $description = $dom->createElement('description',$news['description']);
+            $txt = self::RSS_LINK . '?id=' . $news['id'];
+            $link = $dom->createElement('link',$txt);
+            $dt = date('r', $news['datetime']);
+            $pd = $dom->createElement('pubDate',$dt);
+            $item->appendChild($title);
+            $item->appendChild($link);
+            $item->appendChild($description);
+            $item->appendChild($pd);
+            $item->appendChild($category);
+            $item->appendChild($category);
+            $channel->appendChild($item);
+        }
+        $dom->save(self::RSS_NAME);
     }
 }
 

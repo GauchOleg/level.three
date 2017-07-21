@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f50595eb-0a7e-462c-95c6-e0505e52cb2b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/NewsDB.class.php" afterPath="$PROJECT_DIR$/news/NewsDB.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/delete_news.inc.php" afterPath="$PROJECT_DIR$/news/delete_news.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/get_news.inc.php" afterPath="$PROJECT_DIR$/news/get_news.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/news.php" afterPath="$PROJECT_DIR$/news/news.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/save_news.inc.php" afterPath="$PROJECT_DIR$/news/save_news.inc.php" />
-    </list>
+    <list default="true" id="f50595eb-0a7e-462c-95c6-e0505e52cb2b" name="Default" comment="" />
     <ignored path="level.three.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -30,88 +22,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="news.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/news.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-384">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_news.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/get_news.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_news.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/delete_news.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="save_news.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/save_news.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/news.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NewsDB.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/NewsDB.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+            <state relative-caret-position="-171">
+              <caret line="66" column="63" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
               <folding>
+                <element signature="n#__construct#0;n#NewDb#0;n#!!top" expanded="false" />
                 <element signature="n#__destruct#0;n#NewDb#0;n#!!top" expanded="false" />
+                <element signature="n#clearStr#0;n#NewDb#0;n#!!top" expanded="false" />
                 <element signature="n#clearInt#0;n#NewDb#0;n#!!top" expanded="false" />
                 <element signature="n#saveNews#0;n#NewDb#0;n#!!top" expanded="false" />
                 <element signature="n#db2Arr#0;n#NewDb#0;n#!!top" expanded="false" />
                 <element signature="n#getNews#0;n#NewDb#0;n#!!top" expanded="false" />
                 <element signature="n#deleteNews#0;n#NewDb#0;n#!!top" expanded="false" />
-                <marker date="1500583160906" expanded="true" signature="404:680" placeholder="CREATE TABLE... msgs" />
-                <marker date="1500583160906" expanded="true" signature="869:975" placeholder="CREATE TABLE... category" />
-                <marker date="1500583160906" expanded="true" signature="1164:1368" placeholder="INSERT INTO category... " />
-                <marker date="1500583160906" expanded="true" signature="1215:1249" placeholder="SELECT 1 as " />
-                <marker date="1500583160906" expanded="true" signature="1276:1310" placeholder="SELECT 2 as " />
-                <marker date="1500583160906" expanded="true" signature="1337:1368" placeholder="SELECT 3 as " />
-                <marker date="1500583160906" expanded="false" signature="1746:1838" placeholder="..." />
-                <marker date="1500583160906" expanded="true" signature="2039:2182" placeholder="INSERT INTO msgs... " />
-                <marker date="1500583160906" expanded="true" signature="2753:2939" placeholder="SELECT msgs.... msgs" />
-                <marker date="1500583160906" expanded="true" signature="3321:3347" placeholder="DELETE FROM " />
+                <marker date="1500634107103" expanded="true" signature="529:805" placeholder="CREATE TABLE... msgs" />
+                <marker date="1500634107103" expanded="true" signature="994:1100" placeholder="CREATE TABLE... category" />
+                <marker date="1500634107103" expanded="true" signature="1289:1493" placeholder="INSERT INTO category... " />
+                <marker date="1500634107103" expanded="true" signature="1340:1374" placeholder="SELECT 1 as " />
+                <marker date="1500634107103" expanded="true" signature="1401:1435" placeholder="SELECT 2 as " />
+                <marker date="1500634107103" expanded="true" signature="1462:1493" placeholder="SELECT 3 as " />
+                <marker date="1500634107103" expanded="true" signature="2164:2307" placeholder="INSERT INTO msgs... " />
+                <marker date="1500634107103" expanded="true" signature="2910:3096" placeholder="SELECT msgs.... msgs" />
+                <marker date="1500634107103" expanded="true" signature="3478:3504" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="INewsDB.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/INewsDB.class.php">
+      <file leaf-file-name="rss.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news/rss.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rss_reader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news/rss_reader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -130,18 +83,18 @@
         <option value="$PROJECT_DIR$/oop/class/ISuperUser.class.php" />
         <option value="$PROJECT_DIR$/oop/class/SuperUser.class.php" />
         <option value="$PROJECT_DIR$/oop/users.php" />
-        <option value="$PROJECT_DIR$/news/news.php" />
-        <option value="$PROJECT_DIR$/news/delete_news.inc.php" />
-        <option value="$PROJECT_DIR$/news/get_news.inc.php" />
-        <option value="$PROJECT_DIR$/news/save_news.inc.php" />
         <option value="$PROJECT_DIR$/news/NewsDB.class.php" />
+        <option value="$PROJECT_DIR$/news/rss.xml" />
+        <option value="$PROJECT_DIR$/news/rss_reader.php" />
+        <option value="$PROJECT_DIR$/../local.host/rss_reader.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers />
@@ -178,8 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,11 +165,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../local.host" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\local.host" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -267,22 +225,21 @@
       <updated>1500492248870</updated>
       <workItem from="1500492250419" duration="2395000" />
       <workItem from="1500531183469" duration="9620000" />
-      <workItem from="1500567776877" duration="8104000" />
+      <workItem from="1500616671862" duration="7786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20119000" />
+    <option name="totallyTimeSpent" value="19801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1633888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -293,6 +250,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -361,81 +319,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/news.txt">
+    <entry file="file://$PROJECT_DIR$/news/rss.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="308">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/INewsDB.class.php">
+    <entry file="file://$PROJECT_DIR$/../local.host/rss_reader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="780">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/delete_news.inc.php">
+    <entry file="file://$PROJECT_DIR$/news/rss_reader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/get_news.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/save_news.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="286">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news/NewsDB.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+        <state relative-caret-position="-171">
+          <caret line="66" column="63" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
           <folding>
+            <element signature="n#__construct#0;n#NewDb#0;n#!!top" expanded="false" />
             <element signature="n#__destruct#0;n#NewDb#0;n#!!top" expanded="false" />
+            <element signature="n#clearStr#0;n#NewDb#0;n#!!top" expanded="false" />
             <element signature="n#clearInt#0;n#NewDb#0;n#!!top" expanded="false" />
             <element signature="n#saveNews#0;n#NewDb#0;n#!!top" expanded="false" />
             <element signature="n#db2Arr#0;n#NewDb#0;n#!!top" expanded="false" />
             <element signature="n#getNews#0;n#NewDb#0;n#!!top" expanded="false" />
             <element signature="n#deleteNews#0;n#NewDb#0;n#!!top" expanded="false" />
-            <marker date="1500583160906" expanded="true" signature="404:680" placeholder="CREATE TABLE... msgs" />
-            <marker date="1500583160906" expanded="true" signature="869:975" placeholder="CREATE TABLE... category" />
-            <marker date="1500583160906" expanded="true" signature="1164:1368" placeholder="INSERT INTO category... " />
-            <marker date="1500583160906" expanded="true" signature="1215:1249" placeholder="SELECT 1 as " />
-            <marker date="1500583160906" expanded="true" signature="1276:1310" placeholder="SELECT 2 as " />
-            <marker date="1500583160906" expanded="true" signature="1337:1368" placeholder="SELECT 3 as " />
-            <marker date="1500583160906" expanded="false" signature="1746:1838" placeholder="..." />
-            <marker date="1500583160906" expanded="true" signature="2039:2182" placeholder="INSERT INTO msgs... " />
-            <marker date="1500583160906" expanded="true" signature="2753:2939" placeholder="SELECT msgs.... msgs" />
-            <marker date="1500583160906" expanded="true" signature="3321:3347" placeholder="DELETE FROM " />
+            <marker date="1500634107103" expanded="true" signature="529:805" placeholder="CREATE TABLE... msgs" />
+            <marker date="1500634107103" expanded="true" signature="994:1100" placeholder="CREATE TABLE... category" />
+            <marker date="1500634107103" expanded="true" signature="1289:1493" placeholder="INSERT INTO category... " />
+            <marker date="1500634107103" expanded="true" signature="1340:1374" placeholder="SELECT 1 as " />
+            <marker date="1500634107103" expanded="true" signature="1401:1435" placeholder="SELECT 2 as " />
+            <marker date="1500634107103" expanded="true" signature="1462:1493" placeholder="SELECT 3 as " />
+            <marker date="1500634107103" expanded="true" signature="2164:2307" placeholder="INSERT INTO msgs... " />
+            <marker date="1500634107103" expanded="true" signature="2910:3096" placeholder="SELECT msgs.... msgs" />
+            <marker date="1500634107103" expanded="true" signature="3478:3504" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>

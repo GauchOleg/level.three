@@ -31,4 +31,13 @@ class NewsService extends NewsDB{
 			return base64_encode(serialize($result));
 		}
 }
+$request_xml = file_get_contents("php://input");
+// Создаем RPC-Server
+$xmlrpc_server = xmlrpc_server_create();
+// Регистрируем метод класса
+xmlrpc_server_register_method($xmlrpc_server, "getNewsById", array(new NewsService, "xmlRpcGetNewsById"));
+// отдаем правильный заголовок
+header('Content-Type: text/xml; charset:utf-8');
+// отдаем результат
+print xmlrpc_server_call_method($xmlrpc_server, $request_xml, null);
 ?>

@@ -41,4 +41,12 @@ class NewsService extends NewsDB{
 		}
 	}
 }
+// отключение кеширования wsdl-документа
+ini_set("soap.wsdl_cache_enabled", "0");
+// создание SOAP-сервера
+$server = new SoapServer("http://level.three/soap/news.wsdl");
+// регистрация класса
+$server->setClass('NewsService');
+// запуск сервера
+$server->handle();
 ?>

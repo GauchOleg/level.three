@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/news/NewsDB.class.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oop/users.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../localhost/soap-client.php" charset="windows-1251" />
   </component>
 </project>
